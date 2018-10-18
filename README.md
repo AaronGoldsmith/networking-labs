@@ -33,24 +33,4 @@ Aaron$ time python3 generate.py perfect entropy.py
 Within 0.17695470881825326 of target entropy
 found at -->25
 
-Aaron$ time python3 generate.py random 25 entropy.py 
-randomizing..
-ÒèRM Pß4àvB¶ÚJìUa÷ÑÚ££END££
-real	0m0.054s
-user	0m0.036s
-sys	0m0.010s
-
-Aaron$ time python3 generate.py random 25 entropy.py 
-randomizing..
-¹®:°.°.°-ÈáN´¶¶¢µ0¢¢>££END££
-real	0m0.052s
-user	0m0.035s
-sys	0m0.010s
-
-Aaron$ time python3 generate.py random 25 entropy.py 
-randomizing..
-R1ëÛyYwhòæQaÀ£	ÏàÁBèN££END££
-real	0m0.055s
-user	0m0.038s
-sys	0m0.010s
 ```
