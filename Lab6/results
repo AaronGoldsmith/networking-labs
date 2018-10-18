@@ -1,0 +1,44 @@
+Aarons-MacBook-Pro:lab6 Aaron$ /usr/bin/time python3 generate.py random 22 | python3 entropy.py 
+        0.04 real         0.03 user         0.00 sys
+23.465060517096568
+
+
+Aarons-MacBook-Pro:lab6 Aaron$ time python3 generate.py perfect entropy.py 
+Within 0.17695470881825326 of target entropy
+ found at -->25
+
+
+Aarons-MacBook-Pro:lab6 Aaron$ time python3 generate.py random 25 entropy.py 
+randomizing..
+ÒèRM Pß4àvB¶ÚJìUa÷ÑÚ££END££
+real	0m0.054s
+user	0m0.036s
+sys	0m0.010s
+Aarons-MacBook-Pro:lab6 Aaron$ time python3 generate.py random 25 entropy.py 
+randomizing..
+¹®:°.°.°-ÈáN´¶¶¢µ0¢¢>££END££
+real	0m0.052s
+user	0m0.035s
+sys	0m0.010s
+
+Aarons-MacBook-Pro:lab6 Aaron$ time python3 generate.py random 25 entropy.py 
+randomizing..
+R1ëÛyYwhòæQaÀ£	ÏàÁBèN££END££
+real	0m0.055s
+user	0m0.038s
+sys	0m0.010s
+
+Aarons-MacBook-Pro:lab6 Aaron$ time python3 generate.py random 25 entropy.py 
+randomizing..
+¸Î®¶Ý:S©Ý¿Xã²úòyñD?££END££
+real	0m0.054s
+user	0m0.036s
+sys	0m0.010s
+
+Aarons-MacBook-Pro:lab6 Aaron$ /usr/bin/time python3 generate.py random 26 | python3 entropy.py 
+        0.04 real         0.03 user         0.00 sys
+23.88787025061715
+
+Aarons-MacBook-Pro:lab6 Aaron$ /usr/bin/time python3 generate.py random 25 | python3 entropy.py 
+        0.04 real         0.03 user         0.00 sys
+23.924038688647222
