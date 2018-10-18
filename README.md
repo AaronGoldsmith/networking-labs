@@ -11,6 +11,7 @@ These were a set of labs that I really enjoyed.
    	that UTF-8 can map to. This means if we are restricted to 64 bits, our max entropy would be 64. 
 
 **Derive a general formula for getting maximum entropy**
+   
 	 ```LaTeX
 	   $H(X) = -\sum_{\forall i} (P(x_i)* lg(P(x_i))) $`
 	```
