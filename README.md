@@ -31,11 +31,10 @@ The max possible entropy would occur when a string of characters length 256 each
 - checksum is used to get the aggregate total number of bits, and then mods it by the size of the packet (so that the maximum number of bits will always be the size of the packet)
     
 **What is serialization and deserialization**
-	- Serialization passes the data into a structure so that we can retrieve it later easily.
-	- In the lab we use a dictionary because that maps keys and values which is explicitly the 
-  	  reason for JSON payloads returns
+- Serialization passes the data into a structure so that we can retrieve it later easily.
+- In the lab we use a dictionary because that maps keys and values which is explicitly the reason for JSON payloads returns
    > When we deserialize we can easily reference a specific item in the packet 
 
 **Provide some ideas to modify the code so that we will be able to handle lost messages and missing acknowledgements**
-	- Implement a "timing function", or TTL (time to live).
-	- After a certain number of hops, resend the data in case there were any errors
+- Implement a "timing function", or TTL (time to live).
+- After a certain number of hops, resend the data in case there were any errors
