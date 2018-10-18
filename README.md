@@ -19,17 +19,3 @@ The max possible entropy would occur when a string of characters length 256 each
  
 
    ``` -\sum (1/n) * (log2(1\n)) ```
-
-
-### Lab 6
- Results from running generate
-```BASH
-Aaron$ time python3 generate.py random 22 | python3 entropy.py 
-        0.04 real         0.03 user         0.00 sys
-23.465060517096568
-
-Aaron$ time python3 generate.py perfect entropy.py 
-Within 0.17695470881825326 of target entropy
-found at -->25
-
-```
