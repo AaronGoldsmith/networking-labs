@@ -11,10 +11,9 @@ These were a set of labs that I really enjoyed.
    	that UTF-8 can map to. This means if we are restricted to 64 bits, our max entropy would be 64. 
 
 **Derive a general formula for getting maximum entropy**
-   
-	 ```LaTeX
-	   $H(X) = -\sum_{\forall i} (P(x_i)* lg(P(x_i))) 
-	```
+>>```LaTeX
+  $H(X) = -\sum_{\forall i} (P(x_i)* lg(P(x_i))) 
+```
   >> As stated in problem 1, since we are restricted to n characters, the max entropy occurs when we have exactly
   >> n items each unique. This means that we can use the general form: 
    ```LaTeX
