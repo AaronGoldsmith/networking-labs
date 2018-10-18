@@ -11,8 +11,9 @@ These were a set of labs that I really enjoyed.
    	that UTF-8 can map to. This means if we are restricted to 64 bits, our max entropy would be 64. 
 
 **Derive a general formula for getting maximum entropy**
-	 `   $H(X) = -\sum_{\forall i} (P(x_i)* lg(P(x_i))) $`
-
+	 ```LaTeX
+	   $H(X) = -\sum_{\forall i} (P(x_i)* lg(P(x_i))) $`
+	```
   >> As stated in problem 1, since we are restricted to n characters, the max entropy occurs when we have exactly
   >> n items each unique. This means that we can use the general form: 
    ```LaTeX
@@ -21,7 +22,7 @@ These were a set of labs that I really enjoyed.
 
 
 ### Lab 6
-
+ Results from running generate
 ```BASH
 Aaron$ time python3 generate.py random 22 | python3 entropy.py 
         0.04 real         0.03 user         0.00 sys
