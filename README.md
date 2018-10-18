@@ -21,6 +21,8 @@ These were a set of labs that I really enjoyed.
 
 
 ### Lab 6
+
+```BASH
 Aaron$ time python3 generate.py random 22 | python3 entropy.py 
         0.04 real         0.03 user         0.00 sys
 23.465060517096568
@@ -49,4 +51,4 @@ R1ëÛyYwhòæQaÀ£	ÏàÁBèN££END££
 real	0m0.055s
 user	0m0.038s
 sys	0m0.010s
-
+```
